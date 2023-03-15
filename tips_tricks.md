@@ -71,6 +71,16 @@ git push
 What if you make changes(pull) on the file you was half working and that got disappeared, then we call this as
 `Merge Conflicts`
 
+
+8. To get history(log) of the changes made
+
+```
+git log
+```
+
+9. How to go back to previous version of the code if your not satisfied by newer one
+
+
 ### Other basic commands:
 1. List the directories(folder and files) in pwd
 ```
@@ -91,7 +101,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/warandrule/eduhub.git
 git push -u origin main
 ```
 …or push an existing repository from the command line
