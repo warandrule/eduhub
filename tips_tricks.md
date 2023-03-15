@@ -79,6 +79,20 @@ git log
 ```
 
 9. How to go back to previous version of the code if your not satisfied by newer one
+```
+git reset --hard <commit_hash> # specify the hasd id you want to go back
+git reset --hard origin/master # It will take to version that is on github
+ # this could be handy when you had working code and then later wrote some more code and features but you think you messed up then you can use this 
+```
+
+## Branching:
+    You can work on new features without affecting the main file, later if so you messed up or want to go back you can use it.
+    
+ * Your main branch/ master branch will be your default branch 
+ * The feature branch 
+ * You can head(switch between branches)
+ * finally you can merge the all code(feature with master branch)
+
 
 
 ### Other basic commands:
